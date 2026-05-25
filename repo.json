@@ -1,0 +1,32 @@
+[
+  {
+    "Author": "Matthew Symonds",
+    "Name": "AutoList",
+    "InternalName": "AutoList",
+    "AssemblyVersion": "0.1.0.73",
+    "Description": "AutoList turns retainer Market Board chores into supervised AutoList and AutoRefresh workflows with a small in-game tray that lights up when your character is ready to start.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "marketboard",
+      "retainer",
+      "inventory"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Turn retainer listing from market-board chore into one-click momentum.",
+    "AcceptsFeedback": true,
+    "IconUrl": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/icon.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/latest.zip",
+    "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": "1779678905"
+  }
+]
