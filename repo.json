@@ -1,6 +1,6 @@
 [
   {
-    "Author": "Matthew Symonds",
+    "Author": "Ninethirty77",
     "Name": "AutoList",
     "InternalName": "AutoList",
     "AssemblyVersion": "0.1.0.73",
@@ -27,6 +27,6 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1779678905"
+    "LastUpdate": "1779684926"
   }
 ]
