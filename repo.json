@@ -3,8 +3,8 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.77",
-    "Description": "AutoList turns retainer Market Board chores into supervised AutoList and AutoRefresh workflows with a small in-game tray that lights up when your character is ready to start.",
+    "AssemblyVersion": "0.1.0.78",
+    "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and Consolidate Retainers workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
       "marketboard",
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780118446",
-    "Changelog": "Fixed the AutoList icon in the Dalamud plugin list.\nAdded release notes metadata so Dalamud can show changelog text for updates.\nNo AutoList or AutoRefresh workflow behaviour changed in this build."
+    "LastUpdate": "1780123035",
+    "Changelog": "Added Consolidate Retainers to pull listings from sparse AutoList retainers, adopt them into AutoList if needed, and hand off to AutoList for relisting.\nAdded a configurable sparse-retainer threshold in settings.\nAdded a green Consolidate Retainers button under Refresh Items For Sale in the overlay tray.\nAdded /autolist consolidate."
   }
 ]
