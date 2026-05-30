@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.79",
+    "AssemblyVersion": "0.1.0.80",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and Consolidate Retainers workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780125105",
-    "Changelog": "Raised AutoList Max/List for shards, crystals, and clusters to 9,999.\nKept normal stackable items capped at 999.\nUpdated planning, item defaults, config pruning, and the AutoList Items UI to use the correct item-specific limit."
+    "LastUpdate": "1780126261",
+    "Changelog": "AutoList now excludes your own retainers before choosing the lowest competitor to undercut.\nAutoRefresh uses the same own-retainer filtering path.\nThe filter combines configured retainer names with live game retainer names where available."
   }
 ]
