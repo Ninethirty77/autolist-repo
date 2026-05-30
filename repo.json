@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.75",
+    "AssemblyVersion": "0.1.0.76",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList and AutoRefresh workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,6 +27,6 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780115639"
+    "LastUpdate": "1780117020"
   }
 ]
