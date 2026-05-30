@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.76",
+    "AssemblyVersion": "0.1.0.77",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList and AutoRefresh workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -21,12 +21,13 @@
     "LoadPriority": 0,
     "Punchline": "Turn retainer listing from market-board chore into one-click momentum.",
     "AcceptsFeedback": true,
-    "IconUrl": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/icon.jpg",
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Ninethirty77/autolist-repo/main/latest.zip",
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780117020"
+    "LastUpdate": "1780118446",
+    "Changelog": "Fixed the AutoList icon in the Dalamud plugin list.\nAdded release notes metadata so Dalamud can show changelog text for updates.\nNo AutoList or AutoRefresh workflow behaviour changed in this build."
   }
 ]
