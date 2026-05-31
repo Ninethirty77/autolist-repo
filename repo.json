@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.86",
+    "AssemblyVersion": "0.1.0.87",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and AutoTidy workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780192250",
-    "Changelog": "Changed AutoList free-market pricing so confirmed no-competition results use the configured Free Market Price immediately.\nKept the short market-loading grace period only for ambiguous empty results.\nTreats own-retainer-only market results as no competition without the extra wait."
+    "LastUpdate": "1780266821",
+    "Changelog": "Changed AutoList and AutoRefresh pricing to match market-board quality by default: HQ listings price against HQ competitors, and NQ listings price against NQ competitors.\nAdded a Let HQ undercut NQ pricing toggle for deliberately pricing HQ listings against cheaper NQ listings too.\nKept own-retainer filtering in place before choosing the competitor price to undercut."
   }
 ]
