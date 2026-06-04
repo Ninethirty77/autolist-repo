@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.93",
+    "AssemblyVersion": "0.1.0.94",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and AutoTidy workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780569369",
-    "Changelog": "Moved the Empty Retainer icon 10px right and 28px down from the previous target.\nRemoved the rollover highlight path so the icon stays static on hover.\nUses the built-in hand cursor request on hover without adding a cursor asset."
+    "LastUpdate": "1780569698",
+    "Changelog": "Changed the Empty Retainer icon hover cursor to use the Dalamud FFXIV addon cursor API with the native Hand cursor type.\nReset the forced game cursor whenever the icon is no longer hovered or the retainer inventory overlay is hidden.\nKept the measured icon position and no-animation hover behavior."
   }
 ]
