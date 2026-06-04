@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.88",
+    "AssemblyVersion": "0.1.0.89",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and AutoTidy workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1780477280",
-    "Changelog": "AutoList now skips opening selected retainers during its active-listing scan when the live retainer list shows zero items for sale.\nAutoTidy now records zero-sale retainers as empty without opening their market listings.\nUpdated the retainer-list reader to the current Dalamud string value name for warning-free release builds."
+    "LastUpdate": "1780564848",
+    "Changelog": "Added a supervised Move All to Inventory button on the open retainer inventory window.\nAdded /autolist withdraw, /autolist withdrawall, and /autolist moveall as fallback commands.\nThe withdrawal workflow scans retainer inventory pages 1-5 and stops if the retainer is empty, character inventory is full, the window closes, or a slot changes unexpectedly."
   }
 ]
