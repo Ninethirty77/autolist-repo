@@ -3,7 +3,7 @@
     "Author": "BlueWaveXIV",
     "Name": "AutoList",
     "InternalName": "AutoList",
-    "AssemblyVersion": "0.1.0.100",
+    "AssemblyVersion": "0.1.0.101",
     "Description": "AutoList turns retainer Market Board chores into supervised AutoList, AutoRefresh, and AutoTidy workflows with a small in-game tray that lights up when your character is ready to start.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -27,7 +27,7 @@
     "RepoUrl": "https://github.com/Ninethirty77/autolist-repo",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": "1792988355",
-    "Changelog": "Faster AutoRefresh: matching stacks reuse verified external competitor quotes for up to two minutes, including across retainers. Own retainers stay excluded; context changes and expiry force new lookups. Already-competitive duplicates can skip the editor.\nRemoved the 200-item approved AutoList cap, including saved character profiles and AutoTidy adoption.\nFixed HQ listing submission by resolving canonical names from item IDs instead of comparing saved HQ labels with game symbols. Added specific submission rejection diagnostics.\nAll 173 automated regression checks pass. Released for in-game testing; native smoke tests remain pending."
+    "LastUpdate": "1792990677",
+    "Changelog": "Fixed Confirm being withheld for correctly prepared listings: game item names contain colour/edge formatting payloads and must be decoded as SeString before comparison. This also fixes AutoTidy relisting and AutoRefresh editor checks.\nListing prompts and diagnostics use decoded text. Exact item, price, quantity and same-retainer checks remain; unrelated prompts and malformed text stay blocked.\nAll 187 automated checks pass; release build has zero warnings/errors. Released for in-game testing; native confirmation smoke tests remain pending."
   }
 ]
